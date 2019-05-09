@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace RestWithASPNETUdemy.Services
 {
-    interface IpersonService
+    public interface IpersonService
     {
         Person Create(Person person);
         Person FindById(long id);

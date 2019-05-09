@@ -1,0 +1,9 @@
+CREATE TABLE `rest_with_asp_net_udemy`.`persons` (
+  `Id` INT(10) UNSIGNED NULL DEFAULT NULL, 
+  `FirstName` VARCHAR(50) NULL DEFAULT NULL, 
+  `LastName` VARCHAR(50) NULL DEFAULT NULL, 
+  `Adress` VARCHAR(50) NULL DEFAULT NULL, 
+  `Gender` VARCHAR(50) NULL DEFAULT NULL 
+) ENGINE=INNODB; 
+
+alter table persons change ID ID INT(10) AUTO_INCREMENT PRIMARY KEY
